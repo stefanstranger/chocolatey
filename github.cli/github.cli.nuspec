@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>github.cli</id>
+    <version>0.5.5</version>
+    <owners>Stefan Stranger</owners>
+    <title>github.cli (Install)</title>
+    <authors>Github</authors>
+    <projectUrl>https://github.com/cli/cli</projectUrl>
+    <licenseUrl>https://github.com/cli/cli/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>github.cli SPACE_SEPARATED</tags>
+    <summary>Take GitHub to the command line</summary>
+    <description>gh is GitHub on the command line, and it's now available in beta. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
