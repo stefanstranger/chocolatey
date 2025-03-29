@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>smithery</id>
+    <version>0.1.14</version>
+    <title>Smithery</title>
+    <authors>smithery-ai</authors>
+    <projectUrl>https://github.com/smithery-ai/cli</projectUrl>
+    <tags>smithery mcp server cli</tags>
+    <summary>Tool for installing and running MCP servers</summary>
+    <description>Tool for installing and running MCP servers</description>
+    <owners>chocolatey</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/smithery-ai/cli/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
